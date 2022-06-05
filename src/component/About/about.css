@@ -137,8 +137,10 @@ font-family: 'EB Garamond', serif;
 
 
 
-.lefttt {
+.containerss{
 	display: flex;
+	margin-left: 16rem;
+	justify-content: center;
 	flex-direction: column;
 	position: relative;
 	width: 800px;
@@ -148,13 +150,6 @@ font-family: 'EB Garamond', serif;
 	word-break: break-all;
 	border: 1px solid rgba(0, 0, 0, 0.274);
 	
-  }
-  .lefttt{
-	  float: right;
-	  margin-right: 20px;
-  }
-  .righttt{
-	  margin-left: 20px;
   }
   
   .bloc-tabs {

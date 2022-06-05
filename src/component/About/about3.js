@@ -13,7 +13,7 @@ export default function About3() {
       <Container>
       <SectionTitle heading="Qualifications" subheading='& Educations!'/>
       <div className="containerss">
-      <div className="lefttt">
+      
       <div className="bloc-tabs">
         <button
           className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
@@ -91,15 +91,7 @@ export default function About3() {
         </div>
       </div>
       </div>
-      <div className="righttt">
-      <img
-                src="https://www.freepik.com/free-vector/focused-tiny-people-reading-books_8609147.htm#query=education&position=23&from_view=search"
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "400px" }}
-              />
-      </div>
-    </div>
+    
       </Container>
       )
       }

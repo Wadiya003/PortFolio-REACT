@@ -16,14 +16,7 @@ return (
   <section>
    <Container fluid className="home-section" id="home">
         <Particle />
-        
-        <div className='astronaut'>
-        <img src={Astro}/>
-        </div>
-        
-        <div className='moon'>
-        <img src={Moon}/>
-        </div>
+  
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">

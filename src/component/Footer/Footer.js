@@ -6,10 +6,12 @@ class Footer extends Component {
     render() {
         return (
             <footer className="footer">
+          
                 <Arrow/>
+                
                 <div className="footer-line">
-                      
-                        <div>
+                    
+                        <div >
                             <a href="https://www.github.com">
                                 <svg width="30px" id="github" data-name="github" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
                                     <title>github</title>
@@ -33,7 +35,8 @@ class Footer extends Component {
                                 </svg>
                             </a>
                         </div>
-                </div>
+                        </div>
+    
             </footer>
         );
     }
