@@ -1,0 +1,12 @@
+html { 
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  body {
+    font-family: 'Lato', sans-serif;
+    color: white;
+  }
