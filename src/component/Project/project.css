@@ -1,0 +1,191 @@
+
+.project2{
+    display: flex;
+}
+.project2container {
+    padding: 3rem;
+    margin-right: 200px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    perspective: 1500px;
+  }
+  .project2container2 {
+    
+    padding: 2rem;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    perspective: 1500px;
+  }
+  
+  .procardy {
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width: 250px;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.15),
+      0 10px 20px 0px rgba(0, 0, 0, 0.05),
+      -3px -3px 10px 0px rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    transform: rotateY(-20deg) rotateX(18deg) scale(0.8);
+    transition: all 0.3s;
+  }
+  
+  .procardy:hover {
+    transform: rotateY(0deg) rotateX(0deg) scale(1);
+    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.15),
+      0 10px 20px 5px rgba(0, 0, 0, 0.05),
+      -3px -3px 10px 3px rgba(255, 255, 255, 0.15);
+    z-index: 5;
+  }
+  
+  .procardy1 {
+    top: 15%;
+    z-index: 2;
+    left: 25%;
+  }
+  .procardy4 {
+    top: 13%;
+    z-index: 2;
+    left: 72%;
+    margin-left: 20px;
+  }
+  
+  .procardy2 {
+    top: 35%;
+    z-index: 3;
+    left: 15%;
+  }
+  .procardy5 {
+    top: 34%;
+    z-index: 3;
+    left: 65%;
+  }
+  
+  .procardy3 {
+    top: 54%;
+    z-index: 4;
+    right: 15%;
+  }
+  
+  .question {
+    font-size: 2.2rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+  }
+  
+  .option {
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);
+    border-radius: 4px;
+    color: #eee;
+  }
+  .propic h2{
+      margin-top: 150px;
+      margin-left: 50px;
+  }
+  .propic img{
+      margin-top: 60px;
+      height: 300px;
+  }
+  .propic2{
+      margin-left: 70px;
+  }
+  .propic2 h2{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.propic2 img{
+    margin-top: 60px;
+    height: 300px;
+}
+
+.main-container {
+  padding: 60px;
+}
+
+/* HEADING */
+
+
+/* cardyS */
+
+.cardys {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cardy {
+  background-color:#333;
+  margin: 20px;
+  padding: 20px;
+  width: 500px;
+  min-height: 300px;
+  display: grid;
+  grid-template-rows: 20px 50px 1fr 50px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+}
+
+
+.cardy__link,
+.cardy__exit,
+.cardy__icon {
+  position: relative;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.cardy__link::after {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.6);
+  transition: all 0.5s;
+}
+
+.cardy__link:hover::after {
+  width: 100%;
+}
+
+.cardy__exit {
+  grid-row: 1/2;
+  justify-self: end;
+}
+
+.cardy__icon {
+  grid-row: 2/3;
+  font-size: 30px;
+}
+
+.cardy__title {
+  grid-row: 3/4;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.cardy__apply {
+  grid-row: 4/5;
+  align-self: center;
+}
+
+/* cardy BACKGROUNDS */
+
+
+/* RESPONSIVE */
+
+@media (max-width: 1600px) {
+  .cardys {
+    justify-content: center;
+  }
+}

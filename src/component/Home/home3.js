@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './home3.css'
 import SectionTitle from '../SectionTitle';
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 class Home2 extends Component {
     render(){
         return (<>

@@ -15,10 +15,10 @@ class Home2 extends Component {
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "400px" }}
+             
               />
           </div>
-          <div className="flex-child">
+          <div className="flex-child second">
             
             <h1 style={{ fontSize: "2em" }}>
               LET ME <span className="blue"> INTRODUCE </span> MYSELF

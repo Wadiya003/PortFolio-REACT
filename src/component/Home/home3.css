@@ -1,22 +1,14 @@
 .conte{
     background:black;
 }
-.box{
-margin: 0 10rem 0 10rem;
-padding: 50px 20px 50px 20px;
 
-width: 1000px;
-height: 400px;
-
-background: rgba(10, 10, 10, 0.6);
-}
 .home3{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .main{
-    width: 1000px;
+    width: 70%;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -28,6 +20,7 @@ background: rgba(10, 10, 10, 0.6);
 }
 
 .main .card .face{
+  
     width: 300px;
     height: 200px;
     transition: 0.5s;
@@ -103,4 +96,32 @@ background: rgba(10, 10, 10, 0.6);
 .main .card .face.face2 .content a:hover{
     background: #333;
     color: #fff;
+}
+@media screen and (max-width: 780px) {
+    .main{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    
+}
+@media screen and (max-width: 1300px) {
+    .main .card .face{
+  
+        width: 200px;
+        height: 200px;
+        transition: 0.5s;
+    }
+    
+}
+@media screen and (max-width: 936px) {
+    .main .card .face{
+  
+        width: 150px;
+        height: 200px;
+        transition: 0.5s;
+    }
+    
 }

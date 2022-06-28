@@ -7,14 +7,13 @@ import Astro from './pics/astro.png'
 import Moon from './pics/moon.png'
 import Home2 from './Home2'
 import Home3 from './home3'
-import Contact from '../Contact/Contact'
-import Upbtn from '../Upbtn'
+
 class Home extends Component {
 render(){
   const transition={duration :2, type: 'spring'}
 return (
-  <section>
-   <Container fluid className="home-section" id="home">
+<>
+   <Container className="home-section" id="home">
         <Particle />
   
         <Container className="home-content">
@@ -45,16 +44,15 @@ return (
           </Row>
          
         </Container>
-        
-      </Container>
     
-      {/* 
-       <Upbtn/> */}
+      
+     
+  
+       </Container>
        <Home2/>
        <Home3/>
-       <Contact/>
-      </section>
-      
+
+       </>
 
   
 )
