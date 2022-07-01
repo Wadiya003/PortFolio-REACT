@@ -14,13 +14,13 @@ const SectionTitleStyle = styled.div`
     font-size: 4rem;
     text-transform: uppercase;
   }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 700px) {
     text-align: center;
     p {
       font-size: 1.2rem;
     }
     h2 {
-      font-size: 3.6rem;
+      font-size: 2.0rem;
     }
   }
 `;

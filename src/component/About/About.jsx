@@ -43,7 +43,7 @@ export default function About() {
           <div className="about__info__items">
            
           <About3/>
-            <About2/>
+            {/* <About2/> */}
   
           </div>
           </Container>

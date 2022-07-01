@@ -14,7 +14,7 @@ class Home2 extends Component {
         <div class="card">
             <div class="face face1">
                 <div class="content">
-                    <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true"/>
+                    <img src="https://th.bing.com/th/id/OIP.RZizcfEqjnss3Htav5i78AHaHa?w=190&h=191&c=7&r=0&o=5&pid=1.7" alt="Pic1"/>
                     <h3>Design</h3>
                 </div>
             </div>
@@ -42,7 +42,7 @@ class Home2 extends Component {
         <div class="card">
             <div class="face face1">
                 <div class="content">
-                    <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true"/>
+                    <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true" aria-hidden="true"/>
                     <h3>Launch</h3>
                 </div>
             </div>
@@ -50,6 +50,7 @@ class Home2 extends Component {
                 <div class="content">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
                         <a href="#">Read More</a>
+                   
                 </div>
             </div>
         </div>

@@ -1,4 +1,5 @@
 .conte{
+    margin-top: 2rem;
     background:black;
 }
 
@@ -8,19 +9,19 @@
     align-items: center;
 }
 .main{
-    width: 70%;
     position: relative;
     display: flex;
     justify-content: space-between;
 }
 
 .main .card{
+ 
     position: relative;
     cursor: pointer;
 }
 
 .main .card .face{
-  
+    margin-right: 50px;
     width: 300px;
     height: 200px;
     transition: 0.5s;
@@ -57,7 +58,7 @@
 .main .card .face.face1 .content h3{
     margin: 10px 0 0;
     padding: 0;
-    color: #fff;
+    color: black;
     text-align: center;
     font-size: 1.5em;
 }
@@ -81,35 +82,48 @@
 .main .card .face.face2 .content p{
     margin: 0;
     padding: 0;
+    text-align: center;
+    color: black;
 }
 
-.main .card .face.face2 .content a{
+
+
+.main .card .face.face2 .content h3{
     margin: 15px 0 0;
-    display:  inline-block;
     text-decoration: none;
     font-weight: 900;
     color: #333;
     padding: 5px;
     border: 1px solid #333;
 }
-
+.main .card .face.face2 .content a{
+    color: black;
+    text-decoration: none;
+}
 .main .card .face.face2 .content a:hover{
     background: #333;
-    color: #fff;
+    color: yellow;
 }
-@media screen and (max-width: 780px) {
+
+
+
+@media screen and (max-width: 630px) {
     .main{
         display: block;
         align-items: center;
         justify-content: center;
-    
+    }
+    .main .card .face{
+        width: 500px;
+        height: 200px;
+        transition: 0.5s;
     }
     
     
 }
 @media screen and (max-width: 1300px) {
     .main .card .face{
-  
+        margin-right:30px ;
         width: 200px;
         height: 200px;
         transition: 0.5s;
@@ -118,7 +132,7 @@
 }
 @media screen and (max-width: 936px) {
     .main .card .face{
-  
+        margin-right: 10px;
         width: 150px;
         height: 200px;
         transition: 0.5s;
