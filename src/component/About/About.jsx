@@ -17,10 +17,9 @@ export default function About() {
               <h2 className="about__heading">A freelance Web developer</h2>
               <div className="about__info">
                 <p>
-                  I am from chittagong, Bangladesh. A place of beauty and
-                  nature. Since my childhood, i love art and design. I always
+                  I am from New Delhi, India. I always
                   try to design stuff with my unique point of view. I also love
-                  to create things that can be usefull to others.
+                  to create things that can be useful to others.
                   <br /> <br />
                   I started coding since I was in high school. Coding is also an
                   art for me. I love it and now I have the opportunity to design
@@ -43,7 +42,7 @@ export default function About() {
           <div className="about__info__items">
            
           <About3/>
-            {/* <About2/> */}
+          <About2/>
   
           </div>
           </Container>

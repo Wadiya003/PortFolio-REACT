@@ -19,8 +19,6 @@ export default function About2() {
 	
 
 </div>
-
-
 </div>
 <div class="container2">
 	

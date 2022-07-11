@@ -11,7 +11,6 @@
     perspective: 1500px;
   }
   .project2container2 {
-    
     padding: 2rem;
     width: 500px;
     height: 500px;
@@ -77,16 +76,6 @@
     margin-bottom: 0.5rem;
   }
   
-  .option {
-    text-align: center;
-    font-size: 1.6rem;
-    padding: 0.8rem;
-    margin: 0.5rem 0;
-    background: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(2px);
-    border-radius: 4px;
-    color: #eee;
-  }
   .propic h2{
       margin-top: 150px;
       margin-left: 50px;
@@ -127,9 +116,10 @@
   margin: 20px;
   padding: 20px;
   width: 500px;
+  max-width: 500px;
   min-height: 300px;
   display: grid;
-  grid-template-rows: 20px 50px 1fr 50px;
+  grid-template-rows: 0px 10px 1fr 40px;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
   transition: all 0.2s;
 }
@@ -183,7 +173,45 @@
 
 
 /* RESPONSIVE */
+@media (max-width:768px) {
+  
+.project2{
+  display: block;
+}
+.project2container {
+  padding: 3rem;
+  margin:auto;
+  max-width: 300px;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  perspective: 1500px;
+}
+.project2container2 {
+  padding: 2rem;
+  margin:auto;
+  max-width: 300px;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  perspective: 1500px;
+}
 
+.procardy {
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 250px;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.15),
+    0 10px 20px 0px rgba(0, 0, 0, 0.05),
+    -3px -3px 10px 0px rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  transform: rotateY(-20deg) rotateX(18deg) scale(0.8);
+  transition: all 0.3s;
+}
+}
 @media (max-width: 1600px) {
   .cardys {
     justify-content: center;

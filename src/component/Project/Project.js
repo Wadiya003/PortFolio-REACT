@@ -34,30 +34,20 @@ return (
  
   <div className="procardy procardy1">
     <p className="question">Who's the strongest Avenger?</p>
-    <p className="option">Hulk</p>
-    <p className="option">Thor</p>
-    <p className="option">Captian America</p>
-    <p className="option">Ironman</p>
+    
   </div>
   <div className="procardy procardy2">
     <p className="question">Who's the fastest man alive?</p>
-    <p className="option">Ussain Bolt</p>
-    <p className="option">The Flash</p>
-    <p className="option">Reverse Flash</p>
+    
   </div>
  
   <div className="procardy procardy4">
     <p className="question">Who's the strongest Avenger?</p>
-    <p className="option">Hulk</p>
-    <p className="option">Thor</p>
-    <p className="option">Captian America</p>
-    <p className="option">Ironman</p>
+   
   </div>
   <div className="procardy procardy5">
     <p className="question">Who's the fastest man alive?</p>
-    <p className="option">Ussain Bolt</p>
-    <p className="option">The Flash</p>
-    <p className="option">Reverse Flash</p>
+   
   </div>
 </div>
  <div className='propic'>
@@ -84,30 +74,20 @@ return (
  
   <div className="procardy procardy1">
     <p className="question">Who's the strongest Avenger?</p>
-    <p className="option">Hulk</p>
-    <p className="option">Thor</p>
-    <p className="option">Captian America</p>
-    <p className="option">Ironman</p>
+   
   </div>
   <div className="procardy procardy2">
     <p className="question">Who's the fastest man alive?</p>
-    <p className="option">Ussain Bolt</p>
-    <p className="option">The Flash</p>
-    <p className="option">Reverse Flash</p>
+    
   </div>
  
   <div className="procardy procardy4">
     <p className="question">Who's the strongest Avenger?</p>
-    <p className="option">Hulk</p>
-    <p className="option">Thor</p>
-    <p className="option">Captian America</p>
-    <p className="option">Ironman</p>
+   
   </div>
   <div className="procardy procardy5">
     <p className="question">Who's the fastest man alive?</p>
-    <p className="option">Ussain Bolt</p>
-    <p className="option">The Flash</p>
-    <p className="option">Reverse Flash</p>
+    
   </div>
 </div>
  </div>
