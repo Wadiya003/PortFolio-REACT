@@ -1,6 +1,6 @@
 import './project.css'
-import React, { Component } from 'react';
-import homeLogo from "../Home/pics/project.svg";
+import React from 'react';
+import Carousel from "./carousel";
 import SectionTitle from '../SectionTitle';
 export default function Project(){
 return (
@@ -29,68 +29,7 @@ return (
     
   </div>
 </div>
-  <div className='project2'>
-  <div className="project2container">
- 
-  <div className="procardy procardy1">
-    <p className="question">Who's the strongest Avenger?</p>
-    
-  </div>
-  <div className="procardy procardy2">
-    <p className="question">Who's the fastest man alive?</p>
-    
-  </div>
- 
-  <div className="procardy procardy4">
-    <p className="question">Who's the strongest Avenger?</p>
-   
-  </div>
-  <div className="procardy procardy5">
-    <p className="question">Who's the fastest man alive?</p>
-   
-  </div>
-</div>
- <div className='propic'>
- <h2>More Projects!</h2>
-  <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-
-              /></div>
-              </div>
-
-<div className='project2'>
-<div className='propic2'>
- <h2>More Projects!</h2>
-  <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-
-              />
-              </div>
-  <div className="project2container2">
- 
-  <div className="procardy procardy1">
-    <p className="question">Who's the strongest Avenger?</p>
-   
-  </div>
-  <div className="procardy procardy2">
-    <p className="question">Who's the fastest man alive?</p>
-    
-  </div>
- 
-  <div className="procardy procardy4">
-    <p className="question">Who's the strongest Avenger?</p>
-   
-  </div>
-  <div className="procardy procardy5">
-    <p className="question">Who's the fastest man alive?</p>
-    
-  </div>
-</div>
- </div>
+ <Carousel/>
 </>
 )
 }
