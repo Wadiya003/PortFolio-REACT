@@ -8,54 +8,66 @@ class Home2 extends Component {
          
           <Container  className="conte">
           <SectionTitle heading="Experties" subheading="get to know my interests" />
-          <div className="box">
-          <div className="home3">
-        <div className='main'>
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
-                    <img src="https://th.bing.com/th/id/OIP.RZizcfEqjnss3Htav5i78AHaHa?w=190&h=191&c=7&r=0&o=5&pid=1.7" alt="Pic1"/>
-                    <h3>Design</h3>
-                </div>
-            </div>
-            <div class="face face2">
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                        <a href="#">Read More</a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
-                    <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true"/>
-                    <h3>Code</h3>
-                </div>
-            </div>
-            <div class="face face2">
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                        <a href="#">Read More</a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="face face1">
-                <div class="content">
-                    <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true" aria-hidden="true"/>
-                    <h3>Launch</h3>
-                </div>
-            </div>
-            <div class="face face2">
-                <div class="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                        <a href="#">Read More</a>
-                   
-                </div>
-            </div>
-        </div>
+          <div className='mid'>
+          <aside class="profile-card">
 
-</div></div></div>
+<header>
+  <a>
+    <img src="https://th.bing.com/th/id/OIP.7RcR5X1__ZMxRcM-OvZrswHaEK?pid=ImgDet&rs=1"/>
+  </a>
+
+  <h1>CODER</h1>
+
+  <h2></h2>
+
+</header>
+
+<div class="profile-bio">
+
+  <p>Terence is an avid reader of science fiction, especially anything to do with aliens and tweed jackets. Most weekends, he can be found cataloguing his collection of rodent skeletons.</p>
+
+</div>
+</aside> 
+          <aside class="profile-card">
+
+<header>
+  <a>
+    <img src="https://th.bing.com/th/id/OIP.7RcR5X1__ZMxRcM-OvZrswHaEK?pid=ImgDet&rs=1"/>
+  </a>
+
+  <h1>FRONT-END</h1>
+
+  <h2>DEVELOPER</h2>
+
+</header>
+
+<div class="profile-bio">
+
+  <p>Terence is an avid reader of science fiction, especially anything to do with aliens and tweed jackets. Most weekends, he can be found cataloguing his collection of rodent skeletons.</p>
+
+</div>
+</aside> 
+
+<aside class="profile-card">
+
+<header>
+  <a>
+    <img src="https://th.bing.com/th/id/OIP.7RcR5X1__ZMxRcM-OvZrswHaEK?pid=ImgDet&rs=1"/>
+  </a>
+
+  <h1>BACK-END</h1>
+
+  <h2>DEVELOPER</h2>
+
+</header>
+
+<div class="profile-bio">
+
+  <p>Terence is an avid reader of science fiction, especially anything to do with aliens and tweed jackets. Most weekends, he can be found cataloguing his collection of rodent skeletons.</p>
+
+</div>
+</aside>  
+  </div>
           </Container>
           
           </>

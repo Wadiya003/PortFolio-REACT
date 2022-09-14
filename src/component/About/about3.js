@@ -19,19 +19,19 @@ export default function About3() {
           className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(1)}
         >
-          Tab 1
+        10th
         </button>
         <button
           className={toggleState === 2 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(2)}
         >
-          Tab 2
+        12th
         </button>
         <button
           className={toggleState === 3 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(3)}
         >
-          Tab 3
+        B-Tech
         </button>
       </div>
 
@@ -39,7 +39,7 @@ export default function About3() {
         <div
           className={toggleState === 1 ? "content  active-content" : "content"}
         >
-          <h2>Content 1</h2>
+          <h2>High School-10th</h2>
          
 
           <hr />
@@ -59,7 +59,7 @@ export default function About3() {
         <div
           className={toggleState === 2 ? "content  active-content" : "content"}
         >
-          <h2>Content 2</h2>
+          <h2>High School-12th</h2>
           <hr />
           <div className="headinpic">
           <p>
@@ -76,7 +76,7 @@ export default function About3() {
         <div
           className={toggleState === 3 ? "content  active-content" : "content"}
         >
-          <h2>Content 3</h2>
+          <h2>B-Tech, Computer Science </h2>
           <hr />
           <div className="headinpic">
           <p>

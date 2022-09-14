@@ -1,39 +1,49 @@
-import React, { useEffect } from 'react'
-import TagCloud from 'TagCloud';
 
-const container = '.content';
-const texts = [
-  '3D', 'TagCloud', 'JavaScript',
-  'CSS3', 'Animation', 'Interactive',
-  'Mouse', 'Rolling', 'Sphere',
-  '6KB', 'v2.x',
-];
-const options = {
-  radius: 300,
-  // animation speed
-  // slow, normal, fast
-  maxSpeed: 'fast',
-  initSpeed: 'fast',
-  // 0 = top
-  // 90 = left
-  // 135 = right-bottom
-  direction: 135,
-  // interact with cursor move on mouse out
-  keep: true,
-  	
-};
+import "./skills.css"
 
-const WordCloud = () => {
-  // to render wordcloud each time the page is reloaded
-  useEffect(() => {
-    TagCloud(container, texts, options);
-  })
+const Carousel = () => {
 
   return (
-    <div className='main'>
-      <span className="content"></span>
+  
+    <div class="boox">
+    <div class="booox">
+      <main class="grid">
+      
+         
+      <div class="text">
+            <img href="https://th.bing.com/th/id/OIP.UMBglN8I4NHpTVceabsSvQAAAA?pid=ImgDet&rs=1"></img>
+          </div>
+          <div class="text">
+            <img href="https://th.bing.com/th/id/OIP.UMBglN8I4NHpTVceabsSvQAAAA?pid=ImgDet&rs=1"></img>
+          </div> <div class="text">
+            <img href="https://th.bing.com/th/id/OIP.UMBglN8I4NHpTVceabsSvQAAAA?pid=ImgDet&rs=1"></img>
+          </div> <div class="text">
+            <img href="https://th.bing.com/th/id/OIP.UMBglN8I4NHpTVceabsSvQAAAA?pid=ImgDet&rs=1"></img>
+          </div> <div class="text">
+            <img href="https://th.bing.com/th/id/OIP.UMBglN8I4NHpTVceabsSvQAAAA?pid=ImgDet&rs=1"></img>
+          </div> <div class="text">
+            <img href="https://th.bing.com/th/id/OIP.UMBglN8I4NHpTVceabsSvQAAAA?pid=ImgDet&rs=1"></img>
+          </div> <div class="text">
+            <img href="https://th.bing.com/th/id/OIP.UMBglN8I4NHpTVceabsSvQAAAA?pid=ImgDet&rs=1"></img>
+          </div> <div class="text">
+            <img href="https://th.bing.com/th/id/OIP.UMBglN8I4NHpTVceabsSvQAAAA?pid=ImgDet&rs=1"></img>
+          </div>
+          <div class="text">
+            <img href="https://th.bing.com/th/id/OIP.UMBglN8I4NHpTVceabsSvQAAAA?pid=ImgDet&rs=1"></img>
+          </div> <div class="text">
+            <img href="https://th.bing.com/th/id/OIP.UMBglN8I4NHpTVceabsSvQAAAA?pid=ImgDet&rs=1"></img>
+          </div> <div class="text">
+            <img href="https://th.bing.com/th/id/OIP.UMBglN8I4NHpTVceabsSvQAAAA?pid=ImgDet&rs=1"></img>
+          </div> <div class="text">
+            <img href="https://th.bing.com/th/id/OIP.UMBglN8I4NHpTVceabsSvQAAAA?pid=ImgDet&rs=1"></img>
+          </div>
+        
+    
+      </main>
     </div>
-  )
-}
+    </div>
+  
+  );
+};
 
-export default WordCloud;
+export default Carousel;
