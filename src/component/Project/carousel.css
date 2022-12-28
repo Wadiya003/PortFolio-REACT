@@ -1,63 +1,87 @@
-
-
-.booox {
+.cards {
+  /* display: flex; */
   justify-content: center;
   align-items: center;
-  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
-  max-width: 1000px;
+  text-align: center;
+  min-height: 100vh;
 }
 
-.boox {
-  padding-top: 20px;
-  padding:30px;
-  justify-content: center;
-  display: flex;
+.cards .card {
+  display: -webkit-inline-flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: transparent;
+  border: solid 2px white;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  max-height: 468px;
+  margin: 10px;
 }
 
-
-.grid {
-  height: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-  grid-gap: 20px;
-
+.cards .card:first-child {
+  margin-left: 0;
 }
 
-.grid  {
-  padding: 5% 0;
-  border-radius: 20px;
+.cards .card .icon {
+  width: 64px;
+  height: 64px;
 }
 
-
-.grid .text {
-  background-color: rgb(200, 200, 207);
-  padding: 10px 20px 20px 30px;
-  color: #808285;
-  margin-bottom: 20px;  
+.cards .card img {
+  width: 100%;
 }
 
-.grid .btn {
-  margin-top: 20px;
-  background-color: #e0d4e9;
-	border: 0;
-	border-radius: 5px;
-	color: #000;
-	font-size: 15px;
-	padding: 5px 10px 5px 10px;
-  line-height: 5;
-  font-family: 'Roboto', sans-serif;
-  text-decoration: none;
-  
+.cards .card h3 {
+  font-size: 100%;
+  margin: 16px 0;
 }
 
-.btn:hover {
-  background: #d1d3d4;
-  transition-duration: 80ms;
+.cards .card span {
+  font-weight: 300;
+  max-width: 240px;
+  font-size: 80%;
+  margin-bottom: 16px;
 }
 
-h3{ 
-  color: #000;
-  text-align: left;
+.cards .card button {
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  border-radius: 32px;
+  border: 0;
+  cursor: pointer;
+  font-size: 80%;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 16px 0;
 }
 
+/* .cards .card.contact button {
+  background: linear-gradient(to right, #9F66FF, #DFCBFF);
+}
+.cards .card.shop button {
+  background: linear-gradient(to right, #3E8AFF, #BBDEFF);
+}
+.cards .card.about button {
+  background: linear-gradient(to right, #FE5F8F, #FFC7D9);
+} */
+
+@media screen and (max-width: 720px) {
+  .cards {
+
+  }
+
+  .cards .card {
+      margin-left: 0;
+      margin-bottom: 32px;
+  }
+
+  .cards .card:last-child {
+      margin-bottom: 0;
+  }
+
+  .cards .card button {
+      font-size: 70%;
+  }
+
+}

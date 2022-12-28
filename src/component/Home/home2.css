@@ -1,8 +1,9 @@
 
 .flex-container {
     display: flex;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 20px;
+    padding: 50px;
+   
 }
 
 .flex-child {
@@ -12,9 +13,7 @@
 }  
 
 .flex-child:first-child {
-    /* margin-right: 3rem; */
-    padding-left:50px;
-   
+    margin-right:20px; 
    
 } 
 
@@ -27,12 +26,18 @@
         display: block;
         justify-content: center;
         align-items: center;
+        padding: auto;
     }
     .flex-child{
-        width: 60%;
+      width: 90%;
       margin:auto;
       margin-bottom: 20px;
     }
+    
+.flex-child:first-child {
+    margin-right:none; 
+   
+} 
     /* .second{
         margin-left: 75px;
         width: 60%;
