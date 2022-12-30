@@ -11,58 +11,49 @@ class Contact extends Component {
 
 <SectionTitle heading="Contact" subheading="get to connect with me" />
 
-  <div className="contact-wrapper">
-  
-  {/* <!-- Left contact page -->  */}
-    
-    <form id="contact-form" className="form-horizontal" role="form">
-       
-      <div className="form-group">
-        <div className="col-sm-12">
-          <input type="text" className="form-control" id="name" placeholder="NAME" name="name"  required/>
+<div class="container">
+    <div class="contentss">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Address</div>
+          <div class="text-one">Surkhet, NP12</div>
+          <div class="text-two">Birendranagar 06</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Phone</div>
+          <div class="text-one">+0098 9893 5647</div>
+          <div class="text-two">+0096 3434 5678</div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <div class="text-one">codinglab@gmail.com</div>
+          <div class="text-two">info.codinglab@gmail.com</div>
         </div>
       </div>
-
-      <div className="form-group">
-        <div className="col-sm-12">
-          <input type="email" className="form-control" id="email" placeholder="EMAIL" name="email"  required/>
+      <div class="right-side">
+        {/* <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p> */}
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Enter your name"/>
         </div>
-      </div>
-
-      <textarea className="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
-      
-      <button className="btn btn-primary send-button" id="submit" type="submit" value="SEND">
-        <div className="alt-send-button">
-          <i className="fa fa-paper-plane"></i><span className="send-text">SEND</span>
+        <div class="input-box">
+          <input type="text" placeholder="Enter your email"/>
         </div>
-      
-      </button>
-      
-    </form>
-    
-  {/* <!-- Left contact page -->  */}
-    
-      <div className="direct-contact-container">
-
-        <ul className="contact-list">
-          <li className="list-item"><i className="fa fa-map-marker fa-2x"><span className="contact-text place">City, State</span></i></li>
-          
-          <li className="list-item">
-          {/* <BsFillTelephoneFill/> */}
-          <span className="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></li>
-          
-          <li className="list-item"><i className="fa fa-envelope fa-2x"><span className="contact-text gmail"><a href="mailto:#" title="Send me an email">hitmeup@gmail.com</a></span></i></li>
-          
-        </ul>
-
-       
-        <div className="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
-
-      </div>
-    
+        <div class="input-box message-box">
+          <textarea className="form-control" type="text" placeholder="Type your message"/>
+        </div>
+        <div class="button">
+          <input type="button" value="Send Now" />
+        </div>
+      </form>
+    </div>
+    </div>
   </div>
   
-<Map/>
+{/* <Map/> */}
 {/* 
           <div className="Contact">
           <div className="contact-left">

@@ -33,7 +33,8 @@
 }
 
 .profile-card header {
-  background: #fff;
+  background: center no-repeat url("./pics/Coder.png");
+  border: 2px  rgb(97, 191, 228) solid;
   padding: 1px;
   height: 200px;
   -webkit-transition: all 0.5s;
@@ -42,20 +43,14 @@
   transition: all 0.5s;
 }
 
-.profile-card header img {
-  border: 3px solid #fff;
-  border-radius: 50%;
-  display: block;
-  margin: 10px auto;
-  width: 200px;
-}
+
 
 .profile-card header h1 {
-  color: black;
+  color: white;
   font-family: "Open Sans";
   font-weight: 500;
   letter-spacing: 1px;
-  margin: 0;
+  margin-top: 5px;
   text-align: center;
   line-height: 1;
   -webkit-transition: all 0.5s;

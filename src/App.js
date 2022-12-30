@@ -3,7 +3,6 @@ import React from "react"
 import Navbar from "./component/Navbar/Header";
 import Home from "./component/Home/Home";
 import About from "./component/About/About";
-import Resume from "./component/Resume/Resume";
 import Project from "./component/Project/Project";
 import Skill from "./component/Skill/Skills";
 import Contact from "./component/Contact/Contact";
@@ -36,7 +35,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Project />} />
           <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
           <Route path="/skill" element={<Skill />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/"/>} />

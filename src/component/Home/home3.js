@@ -14,9 +14,9 @@ class Home2 extends Component {
           <div className="mid">
             <aside class="profile-card">
               <header>
-                <a>
+                {/* <a>
                   <img src="https://th.bing.com/th/id/OIP.7RcR5X1__ZMxRcM-OvZrswHaEK?pid=ImgDet&rs=1" />
-                </a>
+                </a> */}
 
                 <h1>CODER</h1>
 
@@ -34,9 +34,9 @@ class Home2 extends Component {
             </aside>
             <aside class="profile-card">
               <header>
-                <a>
+                {/* <a>
                   <img src="https://th.bing.com/th/id/OIP.7RcR5X1__ZMxRcM-OvZrswHaEK?pid=ImgDet&rs=1" />
-                </a>
+                </a> */}
 
                 <h1>FRONT-END</h1>
 
@@ -55,9 +55,9 @@ class Home2 extends Component {
 
             <aside class="profile-card">
               <header>
-                <a>
+                {/* <a>
                   <img src="https://th.bing.com/th/id/OIP.7RcR5X1__ZMxRcM-OvZrswHaEK?pid=ImgDet&rs=1" />
-                </a>
+                </a> */}
 
                 <h1>BACK-END</h1>
 

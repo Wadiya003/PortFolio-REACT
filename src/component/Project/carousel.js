@@ -35,16 +35,16 @@ const Carousel = () => {
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
             <button>Learn More</button>
         </div>
-        <div class="card contact">
+        {/* <div class="card contact">
             <h3>Contact us.</h3>
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
             <button>Learn More</button>
-        </div>
-        <div class="card contact">
+        </div> */}
+        {/* <div class="card contact">
             <h3>Contact us.</h3>
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
             <button>Learn More</button>
-        </div>
+        </div> */}
     </div>
   );
 };

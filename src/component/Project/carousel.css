@@ -1,5 +1,6 @@
 .cards {
   /* display: flex; */
+  margin: 100px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -66,9 +67,9 @@
   background: linear-gradient(to right, #FE5F8F, #FFC7D9);
 } */
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 825px) {
   .cards {
-
+ margin: auto;
   }
 
   .cards .card {
