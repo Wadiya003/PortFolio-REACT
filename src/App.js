@@ -1,13 +1,13 @@
 // import React, { useState, useEffect } from "react";
 import React from "react"
-import Navbar from "./component/Navbar/Header";
-import Home from "./component/Home/Home";
-import About from "./component/About/About";
-import Project from "./component/Project/Project";
-import Skill from "./component/Skill/Skills";
-import Contact from "./component/Contact/Contact";
+import Navbar from "./Pages/Navbar/Header";
+import Home from "./Pages/Home/Home1";
+import About from "./Pages/About/About";
+import Project from "./Pages/Project/Project";
+import Skill from "./Pages/Skill/Skills";
+import Contact from "./Pages/Contact/Contact";
 import "./App.css";
-import Footer from './component/Footer/Footer.js'
+import Footer from './Pages/Footer/Footer.js'
 // import "bootstrap/dist/css/bootstrap.min.css";
 import {
   BrowserRouter as Router,

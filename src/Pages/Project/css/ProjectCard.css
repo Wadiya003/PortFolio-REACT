@@ -1,0 +1,91 @@
+.cards {
+  /* display: flex; */
+  margin: 100px;
+  margin-top: 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* min-height: 100vh; */
+}
+
+.cards .card {
+  display: -webkit-inline-flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: transparent;
+  border: solid 2px white;
+  padding: 20px 25px;
+  /* border-radius: 8px; */
+  max-height: 468px;
+  margin: 2px;
+}
+.card:hover{
+  background-color:rgb(97, 191, 228) !important;
+  font-weight: 400 !important;
+  transition: all ease 0.5s;
+  border:  solid 2px rgb(97, 191, 228);
+}
+
+.cards .card .icon {
+  width: 64px;
+  height: 64px;
+}
+
+.cards .card img {
+  width: 100%;
+}
+
+.cards .card h3 {
+  font-size: 100%;
+  margin: 16px 0;
+}
+
+.cards .card span {
+  font-weight: 300;
+  max-width: 240px;
+  font-size: 80%;
+  margin-bottom: 16px;
+}
+
+.cards .card button {
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  border-radius: 32px;
+  border: 0;
+  cursor: pointer;
+  font-size: 80%;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 16px 0;
+}
+
+/* .cards .card.contact button {
+  background: linear-gradient(to right, #9F66FF, #DFCBFF);
+}
+.cards .card.shop button {
+  background: linear-gradient(to right, #3E8AFF, #BBDEFF);
+}
+.cards .card.about button {
+  background: linear-gradient(to right, #FE5F8F, #FFC7D9);
+} */
+
+@media screen and (max-width: 786px) {
+  .cards {
+ margin: auto;
+  }
+
+  .cards .card {
+      margin-left: 0;
+      margin-bottom: 32px;
+  }
+
+  .cards .card:last-child {
+      margin-bottom: 0;
+  }
+
+  .cards .card button {
+      font-size: 70%;
+  }
+
+}

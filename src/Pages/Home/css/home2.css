@@ -1,0 +1,45 @@
+
+.flex-container {
+    display: flex;
+    margin: 20px;
+    padding: 50px;
+   padding-top: 0px;
+}
+
+.flex-child {
+    flex: 1;
+    padding-top: 20px;
+    width: 50%;
+}  
+
+.flex-child:first-child {
+    margin-right:20px; 
+   
+} 
+
+.img-fluid{
+    max-height: 400px;
+
+}
+@media screen and (max-width: 780px) {
+    .flex-container{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: auto;
+    }
+    .flex-child{
+      width: 90%;
+      margin:auto;
+      margin-bottom: 20px;
+    }
+    
+.flex-child:first-child {
+    margin-right:none; 
+   
+} 
+    /* .second{
+        margin-left: 75px;
+        width: 60%;
+    } */
+}
