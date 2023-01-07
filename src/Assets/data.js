@@ -2,7 +2,6 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiBootstrap,
   DiJqueryLogo,
   DiHeroku,
   DiCss3,
@@ -20,23 +19,27 @@ import {
   DiFirebase,
 } from "react-icons/di";
 import { SiCplusplus, SiFlutter, SiNetlify, SiDart } from "react-icons/si";
-
+import { FaAddressBook } from "react-icons/fa";
+import { AiFillMail, AiFillPhone } from "react-icons/ai";
 // -------------------------HOME--------------------------
 export const Home3 = [
   {
-    heading: "Coder",
-    description: "Competitive",
-    paragraph: "",
+    heading: "Competitive",
+    description: "Coder",
+    paragraph:
+      "I do competitive prograamming in c++, I participated in Google kickstart and ranked 1100. I am 3-star at CodeChef and Top 25% on LeetCode.",
   },
   {
-    heading: "Front-End",
+    heading: "Web-Development",
     description: "Developer",
-    paragraph: "",
+    paragraph:
+      "I work with MEAN and MERN technologies. I have made some big projects for Hackathons, Check them out on Work page.",
   },
   {
-    heading: "Back-End",
+    heading: "Android-Development",
     description: "Developer",
-    paragraph: "",
+    paragraph:
+      "Recently got interested in Android development. I am learning Flutter and Dart. Do some of my basics porject on Work page.",
   },
 ];
 // -------------------------ABOUT--------------------------
@@ -49,6 +52,48 @@ export const About1 = [
   },
 ];
 
+export const Abouts2 = {
+  education: [
+    {
+      icon: "https://www.pikpng.com/pngl/m/82-822656_jamia-logo-png-clipart.png",
+      year: "2017-18",
+      class: "High School",
+      paragraph: "Jamia Girls Senior Secondary school.",
+    },
+    {
+      icon: "https://www.pikpng.com/pngl/m/82-822656_jamia-logo-png-clipart.png",
+      year: "2019-20",
+      class: "Intermediate School",
+      paragraph: "Jamia Girls Senior Secondary school.",
+    },
+    {
+      icon: "https://www.pikpng.com/pngl/m/82-822656_jamia-logo-png-clipart.png",
+      year: "2020-24",
+      class: "B-Tech (Computer Science)",
+      paragraph: "Jamia Millia Islamia.",
+    },
+  ],
+  organization: [
+    {
+      icon: "https://pps.whatsapp.net/v/t61.24694-24/173466880_476898233550568_8542577523163518493_n.jpg?ccb=11-4&oh=01_AdRUDs3Zs33-qAymTo-y5BAGscT_jIxbutFn-sYugxmLeg&oe=63C6BCE5",
+      year: "2020-present",
+      class: "Event Team Head",
+      paragraph: "The Robotics Society, Jamia Millia Islamia",
+    },
+    {
+      icon:"https://pps.whatsapp.net/v/t61.24694-24/247755133_3216602745332083_8785044285635178956_n.jpg?ccb=11-4&oh=01_AdSHNv91HU8hXeH9mK-BedJLVcY1QOO8ixVV8-0L9GyRUw&oe=63C6AEA4",
+      year: "2022-present",
+      class: "President",
+      paragraph: "The W3b-Chain Society, Jamia Millia Islamia",
+    },
+    {
+      icon:"https://pps.whatsapp.net/v/t61.24694-24/160578969_1043848343208017_255884029267811387_n.jpg?ccb=11-4&oh=01_AdSpUxWFnzA3OwJBLZ580CIL1A4ggtqdkyISft60Qi8Pkw&oe=63C6CCA6",
+      year: "2022-present",
+      class: "Design Team Head",
+      paragraph: "ACM, Jamia Millia Islamia",
+    },
+  ],
+};
 // -------------------------PROJECTS--------------------------
 export const ProjectData = [
   {
@@ -193,53 +238,27 @@ export const Skill = {
         "I am always open to enhance and explore new skills.I started web developement by learning HTML, CSS and JavaScript first then expanded my techical skills by exploring Node JS, React JS and Next JS frameworks. I excel in programming languages such as CPP, C, JAVA and JavaScript languages. Apart from this I am familiar with Databases MySql, MongoDb and Firebase. I am mastering DSA alongside. I recently developed interest in Android development and so started checking out Fluuter and Dart.",
     },
   ],
-  right: [
-    {
-      heading: "DSA",
-      percentage: "90%",
-      css: "dsa",
-    },
-    {
-      heading: "DSA",
-      percentage: "90%",
-      css: "cpp",
-    },
-    {
-      heading: "DSA",
-      percentage: "90%",
-      css: "html",
-    },
-    {
-      heading: "DSA",
-      percentage: "90%",
-      css: "html",
-    },
-    {
-      heading: "DSA",
-      percentage: "90%",
-      css: "html",
-    },
-  ],
 };
 
 // -------------------------CONTACT--------------------------
 export const contact = [
   {
-    icon: DiBootstrap,
-    heading: "Address",
-    content: "S-8/26,Jamia Nagar",
-    content2: "New Delhi,India",
+    icon: <AiFillPhone />,
+    heading: "Phone",
+    content: "Unavailable",
+    content2: "",
   },
   {
-    icon: DiBootstrap,
+    icon: <FaAddressBook />,
     heading: "Address",
-    content: "S-8/26,Jamia Nagar",
-    content2: "New Delhi,India",
+    content: "S-8/26, Jamia Nagar",
+    content2: "New Delhi, India",
   },
+
   {
-    icon: DiBootstrap,
-    heading: "Address",
-    content: "S-8/26,Jamia Nagar",
-    content2: "New Delhi,India",
+    icon: <AiFillMail />,
+    heading: "Email",
+    content: "Wadiya003@gmail.com",
+    content2: "Wadiyaali3@gmail.com",
   },
 ];

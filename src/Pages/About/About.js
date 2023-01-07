@@ -9,9 +9,8 @@ export default function About() {
   return (
     <>
      <Container>
-       
-          <div className="top-section">
-            <div className="left">
+     <div className="flex-containers">
+        <div className="home-header">
               <p className="about__subheading">
                 Hi, I am Wadiya
               </p>
@@ -25,14 +24,15 @@ export default function About() {
               </div></>
               )})}
             </div>
-            <div className="right">
-              <img src={AboutImg} alt="me" />
+            <div className="second">
+          <div className="column rights">
+              <img src="https://magneceutical.com/images/about-us/office-girl.png" alt="me" />
             </div>
           </div>
-        
+        </div>
           <div className="about__info__items">
-          <About3/>
-          {/* <About2/> */}
+          {/* <About3/> */}
+          <About2/>
   
           </div>
           </Container>

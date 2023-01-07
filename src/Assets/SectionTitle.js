@@ -11,7 +11,7 @@ const SectionTitleStyle = styled.div`
   }
   h2 {
     font-family: 'Montserrat Bold';
-    font-size: 4rem;
+    font-size: 3rem;
     text-transform: uppercase;
   }
   @media only screen and (max-width: 768px) {

@@ -27,7 +27,6 @@ map{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 15px;
   position: relative;
 }
 .details{
@@ -46,7 +45,7 @@ map{
 .text-one,
 .text-two{
   font-size: 14px;
-  color: #afafb6;
+  color: rgb(216, 208, 208);
 }
 .right-side{
   width: 75%;
@@ -57,7 +56,7 @@ map{
   height: 50px;
   margin: 20px;
   margin-left: 0px;
-  /* display: inline; */
+  
   width: auto;
 }
 
@@ -68,10 +67,12 @@ textarea{
   border: none;
   outline: none;
   font-size: 16px;
-  background: #F0F1F8;
+  background: transparent;
   border-radius: 6px;
   padding: 0 15px;
   resize: none;
+  color: white;
+  border: 2px solid white;
 }
  .message-box{
   min-height: 110px;
@@ -114,7 +115,7 @@ textarea{
 
 
 
-@media (max-width: 786px) {
+@media (max-width: 768px) {
   .container{
     height: 100%;
     padding: 0px;

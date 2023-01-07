@@ -1,18 +1,18 @@
 import React, { Component } from "react";
 import "./css/home2.css";
 import homeLogo from "../../Assets/pics/home2.svg";
-import { Container } from "react-bootstrap";
+import { ss } from "react-bootstrap";
 import SectionTitle from "../../Assets/SectionTitle";
 class Home2 extends Component {
   render() {
     return (
-      <Container className="conte">
+      <ss className="conte">
         <SectionTitle heading="INTRO" subheading="get to know me" />
-        <div className="flex-container">
-          <div className="flex-child">
+        <div className="flex-ss">
+          <div className="flex-childs">
             <img src={homeLogo} alt="home pic" className="img-fluid" />
           </div>
-          <div className="flex-child second">
+          <div className="flex-childs">
             <h1 style={{ fontSize: "2em" }}>
               LET ME{" "}
               <span style={{ fontSize: "1em", color: "rgb(97, 191, 228)" }}>
@@ -63,7 +63,7 @@ class Home2 extends Component {
             </p>
           </div>
         </div>
-      </Container>
+      </ss>
     );
   }
 }

@@ -1,4 +1,6 @@
-
+.back {
+  background-color: black;
+}
 .upper {
   font-family: "MV Boli", sans-serif;
   padding: 0px 10px 20px 10px;
@@ -111,29 +113,32 @@
   display: flex;
   margin: 20px;
   padding: 50px;
+  margin-bottom: 0px !important;
   flex: 1;
   /* padding-top: 20px; */
 }
-.home-header{
- width : 60%; float:left;
- margin: 50px;
+.home-header {
+  width: 60%;
+  float: left;
+  margin: 50px;
 }
-.second{
-  width: 40%; float:right;
+.second {
+  width: 40%;
+  float: right;
 }
-@media screen and (max-width: 780px) {
-  .flex-containers{
+@media screen and (max-width: 768px) {
+  .flex-containers {
     display: grid;
     align-items: center;
     justify-content: center;
     margin: auto;
     padding: auto;
   }
-  .home-header{
-    width : auto;
+  .home-header {
+    width: auto;
     margin: none;
   }
-  .second{
+  .second {
     width: auto;
   }
   /* .home-header {

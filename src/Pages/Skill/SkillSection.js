@@ -1,19 +1,16 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { DiJavascript1 } from "react-icons/di";
 
-import {Skills} from "../../Assets/data"
+import { Skills } from "../../Assets/data";
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", allignItems:"center",paddingLeft: "40px" }}>
-    {Skills.map((e)=>{
-    return(
-      <Col xs={4} md={2} className="tech-icons">
-        {e.icon}
-      </Col>
-      )
-    })}
-    </Row>
+    <div className="spaces">
+      {Skills.map((e) => {
+        return <div className="tech-icons">{e.icon}</div>;
+      })}
+    </div>
   );
 }
 

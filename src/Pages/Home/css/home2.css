@@ -1,45 +1,46 @@
 
-.flex-container {
+.flex-ss {
+    background-color: black;
     display: flex;
     margin: 20px;
     padding: 50px;
    padding-top: 0px;
 }
 
-.flex-child {
+.flex-childs {
     flex: 1;
     padding-top: 20px;
     width: 50%;
 }  
 
-.flex-child:first-child {
+.flex-childs:first-child{
     margin-right:20px; 
-   
+
 } 
 
 .img-fluid{
     max-height: 400px;
 
 }
-@media screen and (max-width: 780px) {
-    .flex-container{
+@media screen and (max-width: 768px) {
+    .flex-ss{
         display: block;
         justify-content: center;
         align-items: center;
-        padding: auto;
+        padding: 0px;
     }
-    .flex-child{
+    /* .flex-childs:first-child{
+        width: auto;
+         
+    }  */
+    .flex-childs{
       width: 90%;
       margin:auto;
       margin-bottom: 20px;
     }
     
-.flex-child:first-child {
+.flex-childs:first-childs {
     margin-right:none; 
    
 } 
-    /* .second{
-        margin-left: 75px;
-        width: 60%;
-    } */
 }

@@ -1,10 +1,12 @@
 .conte {
-  background-color: black;
   margin: 30px;
   margin-bottom: 0px;
+  background: black;
 }
+
 .mid {
   display: flex;
+  background:none;
 }
 .profile-card *,
 .profile-card *:before,
@@ -23,9 +25,9 @@
   padding: 2px;
   width: 320px;
   overflow: hidden;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  /* -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); */
   position: relative;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -48,7 +50,7 @@
 
 .profile-card header h1 {
   color: white;
-  font-family: "Open Sans";
+  font-family: 'Moon Dance', cursive;
   font-weight: 500;
   letter-spacing: 1px;
   margin-top: 5px;
@@ -61,8 +63,8 @@
 }
 
 .profile-card header h2 {
-  color: black;
-  font-family: "Open Sans";
+  /* color: black; */
+  font-family: 'Moon Dance', cursive;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 4px;
@@ -89,7 +91,7 @@
   font-size: 14px;
   font-style: italic;
   text-align: center;
-  font-family: "Open Sans";
+  font-family: 'Moon Dance', cursive;
 }
 
 /*  CHANGES  ON HOVER  */
@@ -110,7 +112,7 @@
   opacity: 1;
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 768px) {
   .mid {
     display: block;
   }

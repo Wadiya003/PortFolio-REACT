@@ -12,7 +12,7 @@ export default function About3() {
   return (
       <Container>
       <SectionTitle heading="Qualification" subheading='& Education!'/>
-      <div className="containerss">
+      <div className="container">
       
       <div className="bloc-tabs">
         <button
@@ -39,19 +39,14 @@ export default function About3() {
         <div
           className={toggleState === 1 ? "content  active-content" : "content"}
         >
-          <h2>High School-10th</h2>
-         
-
+          <h2>High School-10th
           <hr />
+          </h2>
           <div className="headinpic">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            praesentium incidunt quia aspernatur quasi quidem facilis quo nihil
-            vel voluptatum?
+          <p className="headin">
+            JAMIA GIRLS SENIOR SECONDARY SCHOOL
           </p>
-          <div className="content-image">
-	<img src="https://images.unsplash.com/photo-1606830733744-0ad778449672?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzl8fGNocmlzdG1hcyUyMHRyZWV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt=""/>
-	      </div>
+
         </div>
           
         </div>
@@ -59,17 +54,13 @@ export default function About3() {
         <div
           className={toggleState === 2 ? "content  active-content" : "content"}
         >
-          <h2>High School-12th</h2>
+          <h2>Intermediate-12th
           <hr />
+          </h2>
           <div className="headinpic">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            praesentium incidunt quia aspernatur quasi quidem facilis quo nihil
-            vel voluptatum?
+          <p className="headin">
+            JAMIA GIRLS SENIOR SECONDARY SCHOOL
           </p>
-          <div className="content-image">
-	<img src="https://images.unsplash.com/photo-1606830733744-0ad778449672?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzl8fGNocmlzdG1hcyUyMHRyZWV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt=""/>
-	      </div>
         </div>
         </div>
 
@@ -79,14 +70,9 @@ export default function About3() {
           <h2>B-Tech, Computer Science </h2>
           <hr />
           <div className="headinpic">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-            praesentium incidunt quia aspernatur quasi quidem facilis quo nihil
-            vel voluptatum?
-          </p>
-          <div className="content-image">
-	<img src="https://images.unsplash.com/photo-1606830733744-0ad778449672?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzl8fGNocmlzdG1hcyUyMHRyZWV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt=""/>
-	      </div>
+          <div className="headin">
+           <p> JAMIA MILLIA ISLAMIA          </p>
+            </div>
         </div>
         </div>
       </div>
