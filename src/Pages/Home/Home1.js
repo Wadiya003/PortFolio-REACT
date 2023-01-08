@@ -1,11 +1,10 @@
 import "./css/home.css";
-import React, { useState } from "react";
+import React from "react";
 import Particle from "../../Assets/background";
 import { motion } from "framer-motion";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Home2 from "./Home2";
 import Home3 from "./home3";
-import homeLogo from "../../Assets/pics/home2.svg";
 export default function Home() {
   const transition = { duration: 2, type: "spring" };
   return (
@@ -39,15 +38,12 @@ export default function Home() {
               <p className="lower">/html</p>
               <p className="middle">/body</p>
             </div>
-            {/* <div className="second">
-                <img src="https://sunwebtechnologies.com/images/s-4.png" alt="home pic" className="img-fluid" />
-              </div> */}
           </div>
         </Container>
       </Container>
       <div className="back">
-      <Home2 />
-      <Home3 />
+        <Home2 />
+        <Home3 />
       </div>
     </>
   );

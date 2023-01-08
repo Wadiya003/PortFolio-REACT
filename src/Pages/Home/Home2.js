@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 import "./css/home2.css";
 import homeLogo from "../../Assets/pics/home2.svg";
-import { ss } from "react-bootstrap";
 import SectionTitle from "../../Assets/SectionTitle";
 class Home2 extends Component {
   render() {
     return (
-      <ss className="conte">
+      <div className="conte">
         <SectionTitle heading="INTRO" subheading="get to know me" />
         <div className="flex-ss">
           <div className="flex-childs">
@@ -63,7 +62,7 @@ class Home2 extends Component {
             </p>
           </div>
         </div>
-      </ss>
+      </div>
     );
   }
 }

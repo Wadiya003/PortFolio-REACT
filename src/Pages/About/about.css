@@ -41,65 +41,10 @@
   border: 1px solid rgba(0, 0, 0, 0.274);
 }
 
-.bloc-tabs {
-  display: flex;
-}
-.tabs {
-  color: white;
-  margin-left: 20px;
-  padding: 20px;
-  text-align: center;
-  width: 50%;
-  background-color: #222;
-  cursor: pointer;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
-  box-sizing: content-box;
-  position: relative;
-  outline: none;
-}
-.tabs:not(:last-child) {
-  border-right: 1px solid rgba(0, 0, 0, 0.274);
-}
-
-.active-tabs {
-  font-size: 20px;
-  color: rgb(88, 147, 241);
-  background: white;
-  border-bottom: 1px solid transparent;
-}
-
-.active-tabs::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: -5px;
-   background: white;
-  left: 50%;
-  transform: translateX(-50%);
-  /* width: calc(100% + 2px);
-	height: 2px; */
-  /* background: rgb(88, 147, 241); */
-}
-
 button {
   border: none;
 }
-.content-tabs {
-  flex-grow: 1;
-}
-.content {
-  background: transparent;
-  height: 100%;
-  display: none;
-  margin: 20px;
-  margin-right: 0px;
-}
-.content h2 {
-  padding: 0px 0 5px 0px;
-}
-.active-content {
-  display: block;
-}
+
 .headinpic {
   color: white;
   letter-spacing: 3px;

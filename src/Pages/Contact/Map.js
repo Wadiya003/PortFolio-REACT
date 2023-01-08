@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import MapImg from '../../Assets/pics/map.png';
 // import PText from '../PText';
 
 const MapStyles = styled.div`
@@ -49,6 +48,7 @@ export default function Map() {
       <div className="containerz">
       <div className='map__card'>
       <iframe className='mapp'
+              title='Map'
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7008.050535694047!2d77.28908200000001!3d28.56900395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4767689a381%3A0x83aeae3e998c214d!2sBatla%20House%2C%20Okhla%2C%20New%20Delhi%2C%20Delhi%20110025!5e0!3m2!1sen!2sin!4v1653816105434!5m2!1sen!2sin"
               width="100%"
               height="300"

@@ -1,5 +1,4 @@
 // import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
-import react from 'react'
 import "./css/ProjectCard.css";
 import {FiExternalLink} from "react-icons/fi"
 import { ProjectData } from "../../Assets/data.js";
