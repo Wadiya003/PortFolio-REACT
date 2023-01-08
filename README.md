@@ -14,4 +14,3 @@
    <li>Mailtrap for Contact page</li>
    <li>Hooks and Props</li>
 </ul>
-<h3> STILL IN PROGRESS</h3>
