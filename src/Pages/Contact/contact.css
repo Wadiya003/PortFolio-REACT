@@ -10,11 +10,6 @@
   padding-top: 0px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-map{
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
-}
 .contentss{
   display: flex;
   align-items: center;
@@ -42,8 +37,7 @@ map{
   font-size: 18px;
   font-weight: 500;
 }
-.text-one,
-.text-two{
+.text-one{
   font-size: 14px;
   color: rgb(216, 208, 208);
 }
@@ -100,20 +94,6 @@ textarea{
 .button input[type="button"]:hover{
   background: rgb(97, 191, 228);
 }
-
-/* @media (max-width: 950px) {
-  .container{
-    width: 90%;
-    padding: 30px 40px 40px 35px ;
-  }
-  .container .contentss .right-side{
-   width: 75%;
-   margin-left: 55px;
-}
-
-} */
-
-
 
 @media (max-width: 768px) {
   .container{

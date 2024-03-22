@@ -246,19 +246,16 @@ export const contact = [
     icon: <AiFillPhone />,
     heading: "Phone",
     content: "Unavailable",
-    content2: "",
   },
   {
     icon: <FaAddressBook />,
     heading: "Address",
-    content: "S-8/26, Jamia Nagar",
-    content2: "New Delhi, India",
+    content: "Jamia Millia Islamia, New Delhi, India",
   },
 
   {
     icon: <AiFillMail />,
     heading: "Email",
-    content: "Wadiya003@gmail.com",
-    content2: "Wadiyaali3@gmail.com",
+    content: "Wadiya003@gmail.com"
   },
 ];

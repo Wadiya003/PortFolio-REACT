@@ -149,3 +149,54 @@
     margin: auto;
   } */
 }
+/* Add these media queries at the end of your existing CSS */
+
+@media screen and (max-width: 768px) {
+  .flex-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .home-header {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .second {
+    width: 100%;
+  }
+  .heading {
+    font-size: 2em !important; /* Adjust font size for smaller screens */
+    padding-left: 0 !important; /* Remove padding left */
+    text-align: center; /* Center the text */
+  }
+  .heading-name {
+    font-size: 2em !important; /* Adjust font size for smaller screens */
+    padding-left: 0 !important; /* Remove padding left */
+    text-align: center; /* Center the text */
+  }
+  .home-content {
+    text-align: center; /* Center align content */
+    margin: 0;
+    padding: 0;
+  }
+  .upper,
+  .middle,
+  .lower {
+    padding: 0; /* Remove padding */
+    text-align: center; /* Center align text */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .flex-containers {
+    padding: 10px; /* Adjust padding */
+  }
+  .heading {
+    font-size: 1.8em !important; /* Adjust font size for smaller screens */
+  }
+  .heading-name {
+    font-size: 1.8em !important; /* Adjust font size for smaller screens */
+  }
+}

@@ -24,8 +24,10 @@
 }
 .contents {
   padding: 0px 30px;
-  border-left: 2px solid white;
+  border-left: 2px solid white; /* Initially set the border */
 }
+
+
 .box {
   position: relative;
   padding: 20px;
@@ -70,5 +72,54 @@ border: 2px solid rgb(106, 187, 235);
   }
   .row .col:nth-child(2) {
     margin-top: 20px;
+  }
+}
+/* Add these media queries at the end of your existing CSS */
+
+@media (max-width: 768px) {
+  .contain {
+    padding: 35px 10px; /* Adjust padding */
+  }
+
+  .row {
+    grid-template-columns: 1fr; /* Change to single column layout on smaller screens */
+    grid-column-gap: 0; /* Remove gap between columns */
+  }
+
+  .title {
+    font-size: 24px; /* Reduce font size for smaller screens */
+    padding: 0px 0px 20px 20px; /* Adjust padding */
+  }
+
+  .box {
+    flex-direction: column; /* Change flex direction to column */
+    padding: 20px; /* Adjust padding */
+    border: 1px solid white;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .box .A {
+    float: none; /* Remove float */
+    padding: 0; /* Remove padding */
+    text-align: center; /* Center align */
+  }
+
+  .box img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .box .B {
+    width: 100%; /* Adjust width */
+    float: none; /* Remove float */
+    text-align: center; /* Center align */
+  }
+
+  .box h4 {
+    position: relative;
+    margin-bottom: 10px; /* Adjust margin */
   }
 }

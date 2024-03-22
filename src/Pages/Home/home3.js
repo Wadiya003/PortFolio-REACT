@@ -6,7 +6,7 @@ import { Home3 } from "../../Assets/data";
 export default function Home2() {
   return (
     <>
-      <Container className="conte">
+      <Container className="conte" >
         <SectionTitle
           heading="Experties"
           subheading="get to know my interests"

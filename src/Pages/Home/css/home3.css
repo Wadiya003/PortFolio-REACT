@@ -6,6 +6,7 @@
 
 .mid {
   display: flex;
+  height: fit-content;
   background:none;
 }
 .profile-card *,
@@ -20,19 +21,17 @@
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  height: 420px;
+  height: auto;
   margin: 30px auto;
   padding: 2px;
   width: 320px;
   overflow: hidden;
-  /* -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); */
   position: relative;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  
 }
 
 .profile-card header {
@@ -45,7 +44,6 @@
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-
 
 
 .profile-card header h1 {
@@ -94,20 +92,6 @@
   font-family: 'Moon Dance', cursive;
 }
 
-/*  CHANGES  ON HOVER  */
-
-/* .profile-card:hover {
-    height: 420px;
-}
-.profile-card:hover header {
-    height: 200px;
-} */
-/* 
-.profile-card:hover header h1,
-.profile-card:hover header h2 {
-    color: black;
-} */
-
 .profile-card:hover .profile-bio {
   opacity: 1;
 }
@@ -118,5 +102,44 @@
   }
   .profile-card {
     margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .conte {
+    margin: 20px;
+  }
+  .mid {
+    display: block;
+  }
+  .profile-card {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .profile-card header {
+    height: 150px;
+  }
+  .profile-card header h1 {
+    font-size: 24px;
+  }
+  .profile-card header h2 {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  .profile-card .profile-bio {
+    padding: 10px;
+  }
+  .profile-card .profile-bio p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mid {
+    display: block;
+    margin-top: 10px; /* Adjust top margin */
+  }
+  .profile-card {
+    width: 80%;
+    margin: 10px auto; /* Adjust margin */
   }
 }
