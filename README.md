@@ -7,10 +7,3 @@
    <li>Html</li>
    <li>Css</li>
 </ul>
-<h2>Features</h2>
-<ul>
-  <li>Single Page Application</li>
-   <li>Styled Component</li>
-   <li>Mailtrap for Contact page</li>
-   <li>Hooks and Props</li>
-</ul>
