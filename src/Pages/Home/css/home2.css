@@ -29,10 +29,6 @@
         align-items: center;
         padding: 0px;
     }
-    /* .flex-childs:first-child{
-        width: auto;
-         
-    }  */
     .flex-childs{
       width: 90%;
       margin:auto;

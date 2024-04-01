@@ -16,7 +16,7 @@ import {
   DiMongodb,
   DiUbuntu,
   DiVisualstudio,
-  DiFirebase,
+  DiFirebase
 } from "react-icons/di";
 import { SiCplusplus, SiFlutter, SiNetlify, SiDart } from "react-icons/si";
 import { FaAddressBook } from "react-icons/fa";
@@ -24,32 +24,33 @@ import { AiFillMail, AiFillPhone } from "react-icons/ai";
 // -------------------------HOME--------------------------
 export const Home3 = [
   {
-    heading: "Competitive",
-    description: "Coder",
-    paragraph:
-      "I do competitive prograamming in c++, I participated in Google kickstart and ranked 1100. I am 3-star at CodeChef and Top 25% on LeetCode.",
-  },
-  {
     heading: "Web-Development",
-    description: "Developer",
+    description: "Full-Stack",
     paragraph:
-      "I work with MEAN and MERN technologies. I have made some big projects for Hackathons, Check them out on Work page.",
+      "I work with MEAN and MERN technologies. I have made some big projects for Hackathons and it's my professional field.",
   },
   {
-    heading: "Android-Development",
-    description: "Developer",
+    heading: "Competitive",
+    description: "Porgramming",
     paragraph:
-      "Recently got interested in Android development. I am learning Flutter and Dart. Do some of my basics porject on Work page.",
+      "I do competitive prograamming in c++ in my freetime, Regionalists at ICPC 2024, Participated in Google kickstart and ranked 1100. Top 25% on LeetCode.",
+  },
+  {
+    heading: "Blockchain-Development",
+    description: "Beginner",
+    paragraph:
+      "Recently got interested in Blockchain. Currently epxloring Ethereum and Solidity. Made a project on E-commerce using Blockchain.",
   },
 ];
 // -------------------------ABOUT--------------------------
 export const About1 = [
   {
     name: "Wadiya,",
+    resumeLink:"",
     heading: "A Technology Enthusiast!",
     paragraph:
-      "I am from New Delhi, India. I always try to design stuff with my unique point of view. I also love to create things that can be useful to others. I started coding since my 2nd year of graduation. Coding is also an art for me. I love it and now I have the opportunity to design along with the coding. I find it really interesting and I enjoyed the process a lot My vision is to make the world a better place. Now almost everything is becoming better than ever. It is time for us to create more good stuff that helps the world to become a better place.",
-  },
+      "Welcome to my portfolio! I'm Wadiya from India, a full-stack developer with a passion for problem-solving. While I thrive in competitive programming, my professional focus lies in crafting seamless digital experiences. I love exploring new technologies, always seeking to push boundaries and deliver innovative solutions. Let's connect and bring your ideas to life!"
+    },
 ];
 
 export const Abouts2 = {
@@ -119,114 +120,140 @@ export const ProjectData = [
   },
   {
     id: "4",
+    heading: "ShopaHolic",
+    description:"Next.js based E-commerce website, with a beautiful UI and a lot of features, (in development).",
+      link: "https://github.com/Wadiya003/ShopaHolic",
+  },
+  {
+    id: "5",
     heading: "Portfolio App",
     description:
       "It was my first ever webapp since i started web development, using basic HTML5, CSS and JavaScript.             ",
     link: "https://wadiya003.github.io/Portfolio-website/",
   },
   {
-    id: "5",
+    id: "6",
     heading: "To Do list App",
     description:
       "With minimalistic ui and built with Node js technology, this let you add and complete task on a single page.",
     link: "https://github.com/Wadiya003/ToDo-list-Node.js-",
   },
   {
-    id: "6",
+    id: "7",
     heading: "Bloggy Website",
     description:
       "I've made this Website using Node js and Express on the backend, with Ejs, css and MongoDb as a database.",
     link: "https://github.com/Wadiya003/Bloggywebsite",
   },
   {
-    id: "7",
+    id: "8",
     heading: "E-commerce-Blockchain",
     description:
       "A group project for Flipkart's Grid 2022, Used Blockchain technology to prove ownership and generate warranty cards",
     link: "https://github.com/Wadiya003/Bit-Shopper",
   },
   {
-    id: "8",
+    id: "9",
     heading: "Weather App",
     description:
       "Using the concept of API, Node Js, Express and Ejs, I built a weather app with beautiful UI.",
     link: "https://github.com/Wadiya003/Weather-website",
   },
-  {
-    id: "9",
-    heading: "BMI- Calculator",
-    description:
-      "First project of Android development, Using Flutter and Dart as programming language, built a BMI-calculator",
-    link: "#",
-  },
+  
 ];
 // -------------------------SKILLS--------------------------
 export const Skills = [
   {
     icon: <SiCplusplus />,
+    name: "C++",
   },
   {
     icon: <DiJava />,
+    name: "Java",
   },
   {
     icon: <DiJavascript1 />,
+    name: "JavaScript",
   },
   {
     icon: <DiNodejs />,
+    name: "Node.js",
   },
   {
     icon: <DiNpm />,
+    name: "NPM",
   },
   {
     icon: <DiReact />,
+    name: "React.js",
+  },
+  {
+    icon: <DiReact />,
+    name: "Next.js",
   },
   {
     icon: <DiHtml5 />,
+    name: "HTML5",
   },
   {
     icon: <DiCss3 />,
+    name: "CSS3",
   },
   {
     icon: <DiSass />,
+    name: "Sass",
   },
   {
     icon: <DiJqueryLogo />,
+    name: "JQuery",
   },
   {
     icon: <DiMysql />,
+    name: "MySQL",
   },
   {
     icon: <DiMongodb />,
+    name: "MongoDB",
   },
   {
     icon: <DiFirebase />,
+    name: "Firebase",
   },
   {
     icon: <SiFlutter />,
+    name: "Flutter",
   },
   {
     icon: <SiDart />,
+    name: "Dart",
   },
   {
     icon: <DiUbuntu />,
+    name: "Ubuntu",
   },
   {
     icon: <DiHeroku />,
+    name: "Heroku",
   },
   {
     icon: <DiAndroid />,
+    name: "Android",
   },
   {
     icon: <DiLinux />,
+    name: "Linux",
   },
   {
     icon: <DiGithub />,
+    name: "GitHub",
   },
   {
     icon: <DiVisualstudio />,
+    name: "VS Code",
   },
   {
     icon: <SiNetlify />,
+    name: "Netlify",
   },
 ];
 
@@ -235,8 +262,8 @@ export const Skill = {
     {
       heading: "My skills & experiences.",
       paragraph1:
-        "I am always open to enhance and explore new skills.I started web developement by learning HTML, CSS and JavaScript first then expanded my techical skills by exploring Node JS, React JS and Next JS frameworks. I excel in programming languages such as CPP, C, JAVA and JavaScript languages. Apart from this I am familiar with Databases MySql, MongoDb and Firebase. I am mastering DSA alongside. I recently developed interest in Android development and so started checking out Fluuter and Dart.",
-    },
+        "I possess a diverse skill set rooted in web development, where I initially delved into HTML, CSS, and JavaScript before expanding into frameworks like Node.js, React.js, and Next.js. Proficient in languages such as C++, C, Java, and JavaScript, I bring versatility to my projects. My familiarity with databases extends to MySQL, MongoDB, and Firebase. With an unwavering commitment to enhancing and exploring new skills, I am always eager to embrace new challenges and technologies in the ever-evolving landscape of development."
+      },
   ],
 };
 

@@ -1,4 +1,4 @@
-import "./css/home.css";
+import "./css/home1.css";
 import React from "react";
 import Particle from "../../Assets/background";
 import { motion } from "framer-motion";
@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Container className="home-section" id="home">
-        <Container className="home-content">
+        
           <Particle />
           <div className="flex-containers">
             <div className="home-header">
@@ -39,7 +39,6 @@ export default function Home() {
               <p className="middle">/body</p>
             </div>
           </div>
-        </Container>
       </Container>
       <div className="back">
         <Home2 />

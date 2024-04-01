@@ -5,7 +5,6 @@ import { Abouts2 } from "../../Assets/data.js";
 export default function About2() {
   return (
     <Container>
-      {/* <SectionTitle heading="Education" subheading="and Experience!" /> */}
       <div className="contain">
         <main className="row">
           <section className="col">

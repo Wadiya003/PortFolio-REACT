@@ -1,5 +1,5 @@
 import React from "react";
-import "./about.css";
+import "./about1.css";
 import { Container } from "react-bootstrap";
 import About2 from "./about2";
 import { About1 } from "../../Assets/data";
@@ -7,29 +7,53 @@ export default function About() {
   return (
     <>
       <Container>
-        <div className="flex-containers">
-          <div className="home-header">
-            <p className="about__subheading">Hi, I am Wadiya</p>
-            {About1.map((e) => {
-              return (
-                <>
-                  <h2 className="about__heading">{e.heading}</h2>
-                  <div className="about__info">
-                    <p>{e.paragraph}</p>
-                  </div>
-                </>
-              );
-            })}
-          </div>
-          <div className="second">
-            <div className="column rights">
+        <div className="greet-main" id="greeting">
+          <div className="greeting-main">
+            <div className="greeting-text-div">
+              <div>
+                {About1.map((e) => {
+                  return (
+                    <>
+                      <h1
+                        className="greeting-text"
+                      >
+                        {e.heading}</h1>
+                      <p
+                        className="greeting-text-p subTitle"
+
+                      >{e.paragraph}
+
+                      </p>
+                    </>
+                  );
+                })}
+              </div>
+              <div className="button-greeting-div">
+                {/* <Button text="Contact me" href="#contact" /> */}
+                
+                {About1.map((e) => {
+                  return (
+                    <>
+                    <div >
+                  <a className="main-button" href={e.resumeLink} target={  true & "_blank"}>
+                    Resume
+                  </a>
+                </div>
+                    </>
+                  );
+                })}
+              </div>
+            </div>
+            <div className="greeting-image-div">
               <img
-                src="https://magneceutical.com/images/about-us/office-girl.png"
-                alt="me"
-              />
+                alt="man sitting on table"
+                src="https://cdni.iconscout.com/illustration/premium/thumb/the-girls-are-working-on-graph-analysis-11106432-8945012.png?f=webp"
+              ></img>
             </div>
           </div>
         </div>
+
+
         <div className="about__info__items">
           <About2 />
         </div>

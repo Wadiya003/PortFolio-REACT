@@ -19,9 +19,7 @@
   text-transform: uppercase;
   padding: 0px 0px 40px 30px;
 }
-.title:hover{
-  
-}
+
 .contents {
   padding: 0px 30px;
   border-left: 2px solid white; /* Initially set the border */
@@ -56,16 +54,7 @@ border: 2px solid rgb(106, 187, 235);
 .box h4 {
   position: relative;
 }
-/* .box::before {
-  content: '';
-  position: relative;
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  right: calc(9% + 22px);
-  top: 0;
-  border: 2px solid rgb(122, 200, 245);
-} */
+
 @media (max-width: 768px) {
   .row {
     grid-template-columns: 1fr;

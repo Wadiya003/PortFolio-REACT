@@ -9,25 +9,30 @@ export default function Skills() {
   return (
     <>
       <Container>
-        <SectionTitle heading="Professional" subheading="Skill Sets" />
-        <div className="flex-containers">
-          <div className="home-header">
-            {Skill.left.map((e) => {
-              return (
-                <>
-                  <h2 className="about__heading">{e.heading}</h2>
-                  <div className="about__info">
-                    <p>{e.paragraph1}</p>
-                  </div>
-                </>
-              );
-            })}
-          </div>
-          <div className="second">
-            <div className="column rights">
-              <div className="imgs">
-                <FullStackImg />
+        <div className="greet-main" id="greeting">
+          <div className="greeting-main">
+            <div className="greeting-text-div">
+              <div>
+                {Skill.left.map((e) => {
+                  return (
+                    <>
+                      <h1
+                        className="greeting-text"
+                      >
+                        {e.heading}</h1>
+                      <p
+                        className="greeting-text-p subTitle"
+
+                      >{e.paragraph1}
+
+                      </p>
+                    </>
+                  );
+                })}
               </div>
+            </div>
+            <div className="greeting-image-div">
+            <FullStackImg />
             </div>
           </div>
         </div>

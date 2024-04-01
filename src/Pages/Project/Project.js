@@ -5,12 +5,10 @@ import SectionTitle from "../../Assets/SectionTitle";
 export default function Project() {
   return (
     <>
-      <div class="main-container">
         <SectionTitle
           heading="Experties"
           subheading="here, are my project!"
         />
-      </div>
       <Carousel />
     </>
   );

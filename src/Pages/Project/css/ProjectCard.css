@@ -62,16 +62,6 @@
   margin-bottom: 16px 0;
 }
 
-/* .cards .card.contact button {
-  background: linear-gradient(to right, #9F66FF, #DFCBFF);
-}
-.cards .card.shop button {
-  background: linear-gradient(to right, #3E8AFF, #BBDEFF);
-}
-.cards .card.about button {
-  background: linear-gradient(to right, #FE5F8F, #FFC7D9);
-} */
-
 @media screen and (max-width: 768px) {
   .cards {
  margin: auto;
