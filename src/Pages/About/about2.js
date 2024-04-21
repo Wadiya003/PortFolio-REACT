@@ -14,10 +14,10 @@ export default function About2() {
             <div className="contents">
               {Abouts2.education.map((e) => {
                 return (
-                  <div className="box">
+                  <div className="box" key={e.key}>
                     <div className="A">
                       <img src={e.icon} alt="Logo"
-					  />
+                      />
                     </div>
                     <div className="B">
                       <h4>{e.year}</h4>
@@ -36,7 +36,7 @@ export default function About2() {
             <div className="contents">
               {Abouts2.organization.map((e) => {
                 return (
-                  <div className="box">
+                  <div className="box" key={e.key}>
                     <div className="A">
                       <img src={e.icon} alt="Logo" />
                     </div>

@@ -35,7 +35,7 @@
 }
 
 .profile-card header {
-  background: center no-repeat url("../../../Assets/pics/Coder.png");
+  background: center no-repeat url("../../../../public/pics/Coder.png");
   border: 2px  rgb(97, 191, 228) solid;
   padding: 1px;
   height: 200px;

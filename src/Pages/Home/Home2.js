@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./css/home2.css";
-import homeLogo from "../../Assets/pics/home2.svg";
+// import homeLogo from "../../Assets/pics/home2.svg";
 import SectionTitle from "../../Assets/SectionTitle";
 class Home2 extends Component {
   render() {
@@ -9,7 +9,7 @@ class Home2 extends Component {
         <SectionTitle heading="INTRO" subheading="get to know me" />
         <div className="flex-ss">
           <div className="flex-childs">
-            <img src={homeLogo} alt="home pic" className="img-fluid" />
+            <img src="pics/home2.svg" alt="home pic" className="img-fluid" />
           </div>
           <div className="flex-childs">
             <h1 style={{ fontSize: "2em" }}>

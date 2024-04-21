@@ -56,19 +56,22 @@ export const About1 = [
 export const Abouts2 = {
   education: [
     {
-      icon: "https://www.pikpng.com/pngl/m/82-822656_jamia-logo-png-clipart.png",
+      key:1,
+      icon: "pics/jamia_logo.png",
       year: "2017-18",
       class: "High School",
       paragraph: "Jamia Girls Senior Secondary school.",
     },
     {
-      icon: "https://www.pikpng.com/pngl/m/82-822656_jamia-logo-png-clipart.png",
+      key:2,
+      icon: "pics/jamia_logo.png",
       year: "2019-20",
       class: "Intermediate School",
       paragraph: "Jamia Girls Senior Secondary school.",
     },
     {
-      icon: "https://www.pikpng.com/pngl/m/82-822656_jamia-logo-png-clipart.png",
+      key:3,
+      icon: "pics/jamia_logo.png",
       year: "2020-24",
       class: "B-Tech (Computer Science)",
       paragraph: "Jamia Millia Islamia.",
@@ -76,20 +79,23 @@ export const Abouts2 = {
   ],
   organization: [
     {
-      icon: "https://pps.whatsapp.net/v/t61.24694-24/173466880_476898233550568_8542577523163518493_n.jpg?ccb=11-4&oh=01_AdRUDs3Zs33-qAymTo-y5BAGscT_jIxbutFn-sYugxmLeg&oe=63C6BCE5",
-      year: "2020-present",
+      key:1,
+      icon: "pics/trs.jpg",
+      year: "2020-2023",
       class: "Event Team Head",
       paragraph: "The Robotics Society, Jamia Millia Islamia",
     },
     {
-      icon:"https://pps.whatsapp.net/v/t61.24694-24/247755133_3216602745332083_8785044285635178956_n.jpg?ccb=11-4&oh=01_AdSHNv91HU8hXeH9mK-BedJLVcY1QOO8ixVV8-0L9GyRUw&oe=63C6AEA4",
-      year: "2022-present",
+      key:2,
+      icon:"pics/twcs_logo.png",
+      year: "2022-2023",
       class: "President",
       paragraph: "The W3b-Chain Society, Jamia Millia Islamia",
     },
     {
-      icon:"https://pps.whatsapp.net/v/t61.24694-24/160578969_1043848343208017_255884029267811387_n.jpg?ccb=11-4&oh=01_AdSpUxWFnzA3OwJBLZ580CIL1A4ggtqdkyISft60Qi8Pkw&oe=63C6CCA6",
-      year: "2022-present",
+      key:3,
+      icon:"pics/acm_logo.png",
+      year: "2022-2023",
       class: "Design Team Head",
       paragraph: "ACM, Jamia Millia Islamia",
     },

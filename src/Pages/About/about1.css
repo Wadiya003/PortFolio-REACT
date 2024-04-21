@@ -60,20 +60,25 @@
   }
 }
 @media (max-width: 768px) {
-  .button-greeting-div {
+  /* .button-greeting-div {
     justify-content: space-around;
-  }
+  } */
   .greeting-text {
     font-size: 30px;
-    text-align: center;
+    text-align: start;
   }
   .greeting-text-p {
     font-size: 16px;
     line-height: normal;
-    text-align: center;
+    text-align: start;
   }
   .greeting-main {
     display: block;
+  }
+  .greeting-image-div > img {
+    max-width: 90%;
+    margin-left: 0%;
+    height: auto;
   }
 }
 
